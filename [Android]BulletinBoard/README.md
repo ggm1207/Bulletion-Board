@@ -16,4 +16,4 @@
     그러므로 편입, 복수전공, 부전공, 복학생 아울러 모든 학년의 학생들이 소통할 수 있는 게시판이 지금 우리한테 필요하다.
 
 #### 2. 완성작
-![Alt text](/../../tree/master/%5BAndroid%5DBulletinBoard/img/1.png)
+<img src="./img/1.png" width="90" height="160">
