@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#333333"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:gravity="left|center"
+            android:paddingLeft="30sp"
+            android:text="채팅 ) 접속자 수:"
+            android:fontFamily="@font/nanumpen"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/chatnum1"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:gravity="left|center"
+            android:text=""
+            android:fontFamily="@font/nanumpen"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chatchat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stackFromBottom="true"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="6dp"
+            android:padding="6dp"></ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gg_line"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_weight="9"
+            android:id="@+id/realeditchat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:textColor="#ffffff"
+            android:text="작성"
+            android:textSize="15sp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>

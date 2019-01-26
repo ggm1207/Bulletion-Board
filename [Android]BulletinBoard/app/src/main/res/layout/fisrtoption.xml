@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#333333"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:gravity="left|center"
+            android:paddingLeft="30sp"
+            android:text="즐길 준비 하세요!"
+            android:fontFamily="@font/nanumpen"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="닉네임 입력란 (10자 제한)"
+                android:paddingLeft="30sp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:gravity="left|bottom"/>
+            <EditText
+                android:id="@+id/nickname"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="left|top"
+                android:textSize="15sp"
+                android:textColor="#aaaaaa"
+                android:maxLength="10"
+                android:paddingLeft="30sp"
+                android:hint="닉네임을 입력해주세요."
+                android:textColorHint="#999999"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1.7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="학번 선택란 (랜덤 매칭에 쓰입니다!)"
+                android:paddingLeft="30sp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:gravity="left|bottom"/>
+
+            <RadioGroup
+                android:padding="10sp"
+                android:id="@+id/rgroup1"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/btn13"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:text="13"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:textColor="#000000"
+                        android:buttonTint="#000000"/>
+                    <RadioButton
+                        android:id="@+id/btn14"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:text="14"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:textColor="#000000"
+                        android:buttonTint="#000000"/>
+                    <RadioButton
+                        android:id="@+id/btn15"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:text="15"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:textColor="#000000"
+                        android:buttonTint="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/btn16"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:text="16"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:textColor="#000000"
+                        android:buttonTint="#000000"/>
+                    <RadioButton
+                        android:id="@+id/btn17"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:text="17"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:textColor="#000000"
+                        android:buttonTint="#000000"/>
+                    <RadioButton
+                        android:id="@+id/btn18"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:text="18"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:textColor="#000000"
+                        android:buttonTint="#000000"/>
+
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="평소 거주하는 곳 선택란 (랜덤 매칭에 쓰입니다!)"
+                android:paddingLeft="30sp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:gravity="left|bottom"/>
+
+            <RadioGroup
+                android:padding="2sp"
+                android:id="@+id/rgroup2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                >
+                <RadioButton
+                    android:id="@+id/gongzzok"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="공쪽"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:textColor="#000000"
+                    android:buttonTint="#000000"/>
+                <RadioButton
+                    android:id="@+id/zazzok"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="자쪽"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:textColor="#000000"
+                    android:buttonTint="#000000"/>
+                <RadioButton
+                    android:id="@+id/front"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="정문"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:textColor="#000000"
+                    android:buttonTint="#000000"/>
+                <RadioButton
+                    android:id="@+id/giksa"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="긱사"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:textColor="#000000"
+                    android:buttonTint="#000000"/>
+                <RadioButton
+                    android:id="@+id/it"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="한빛"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:textColor="#000000"
+                    android:buttonTint="#000000"/>
+                <RadioButton
+                    android:id="@+id/gong6"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="공6"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:textColor="#000000"
+                    android:buttonTint="#000000"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="닉네임 중복시 재입력 해주세요."
+                android:textColor="#999999"
+                android:gravity="center"
+                android:textSize="18sp"/>
+            <Button
+                android:layout_weight="2"
+                android:id="@+id/sendoption"
+                android:layout_width="0dp"
+                android:text="JOIN!"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

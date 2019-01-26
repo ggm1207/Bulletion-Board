@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuitem_bottombar_list"
+        android:icon="@drawable/ic_lists"
+        android:title="Board"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuitem_bottombar_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="Chatting"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuitem_bottombar_friend"
+        android:icon="@drawable/ic_friend"
+        android:title="Random matching"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuitem_bottombar_option"
+        android:icon="@drawable/ic_option"
+        android:title="Option"
+        app:showAsAction="ifRoom"/>
+</menu>

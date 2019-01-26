@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "237662370988",
+    "firebase_url": "https://softwareengineering-f8e68.firebaseio.com",
+    "project_id": "softwareengineering-f8e68",
+    "storage_bucket": "softwareengineering-f8e68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237662370988:android:c5b703baef263f39",
+        "android_client_info": {
+          "package_name": "com.cs.bulletinboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237662370988-oc98gf0rqppi23jpececvlrf57ghlu54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD4Gzx-VoZAbBYau2wn82bmxLKfwHqM_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
