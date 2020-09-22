@@ -22,3 +22,12 @@
 <img src="./img/1.png" width="135" height="240"> <img src="./img/2.png" width="135" height="240"> <img src="./img/3.png" width="135" height="240"> <img src="./img/4.png" width="135" height="240"> <img src="./img/5.png" width="135" height="240"> 
 
 <img src="./img/6.png" width="135" height="240"> <img src="./img/7.png" width="135" height="240"> <img src="./img/8.png" width="135" height="240"> <img src="./img/9.png" width="135" height="240"> <img src="./img/11.png" width="135" height="240">
+
+#### 4. 끝마치며
+
+처음 시작은 분명 간단한 게시판 앱으로 시작했습니다만... 게시판만 떡하니 있으니 노력한 시간에 비해 결과물이 초라해보이는 결과가 ㅠㅜ 
+결국, 이거저거 추가하다보니 기능이 많아졌습니다. 라이브러리 하나 없이 하드 코딩으로 구현했다는 것이 함정 :sad:
+
+C언어로 계산기 같은거 만들다가 Java로 앱을 만드니 매우 재밌던 경험이였습니다. 또한 처음으로 Web Application Server, DB Server도 구현해봤습니다. 인터넷으로 통신을 한다는 거 자체가 굉장히 신기한 경험...
+
+교수님이 좀 만 더 다듬으면 과에서 진짜 써도 될 것 같다고 하셨다. 물론 듣기 좋으라고 한 말이겠지만.. ( 어차피 그 당시에는 만들 실력 안됐음 ) 하하 그래도 기분 좋다.
